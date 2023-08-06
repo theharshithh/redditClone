@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path'); 
 const redditData = require('./data.json'); 
-const hostName = `0.0.0.0`; 
 const port = 3000; 
 
 
@@ -26,6 +25,6 @@ app.get('/r/:subreddit', (req,res) => {
      
 })
 
-app.listen(port,hostName, () => {
-    console.log(`Server is running at http:// `+hostName+':'+port+'/');
+app.listen(port, () => {
+    console.log(`Server is running at` +port);
 });
