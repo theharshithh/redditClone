@@ -1,0 +1,44 @@
+<%- include('header.ejs') %>
+
+<h1 style="margin: 2rem;"><%= description %></h1>
+<p style="margin: 2rem;">r/<%= name %></p>
+<p style="margin: 2rem;">Subscibers : <%= subscribers %></p>
+
+<% for(let postNo of posts) { %>
+     <div style="border-style: solid; margin: 2rem;" class="postSection">
+        <h3 style="margin: 2rem;"> <%= postNo.title %> </h3>
+        <img style="margin: 10px;" src=<%= postNo.imageLink %>>
+        <h4 style="margin: 2rem;"> Author: <%= postNo.author %> </h4>
+        <style>
+            .social-metrics {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+            }
+            
+            .metric {
+              text-align: center;
+            }
+          </style>
+          <div class="social-metrics">
+            <div class="metric">
+              <p>Likes</p>
+              <span class="count"><%= postNo.likes %></span>
+            </div>
+            
+            <div class="metric">
+              <p>Comments</p>
+              <span class="count"><%= postNo.comments %></span>
+            </div>
+            
+            <div class="metric">
+              <p>Shares</p>
+              <span class="count"><%= postNo.share %></span>
+            </div>
+          </div>
+    </div>
+<% } %>
+
+
+
+<%- include('footer.ejs') %>

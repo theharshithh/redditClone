@@ -1,0 +1,91 @@
+{
+    "soccer" : {
+        "name" : "Soccer",
+        "subscribers" : 788565, 
+        "description" : "The football subreddit. News, results, and discussions",
+        "posts" : [
+            {
+                "title" : "Goal line technology decision of deciding penalty in shoot-out between Sweden and USA",
+                "author" : "BVB-Oeli",
+                "imageLink" : "https://preview.redd.it/34nioyc4ahgb1.png?width=640&crop=smart&auto=webp&s=28ccc0a55e37fcffd251c968f2f499b7897dd589",
+                "likes" : 123, 
+                "comments" :12, 
+                "share" : 4  
+            },
+            {
+                "title" : "Zećira Mušović made 11 saves against the #USA , the most in a single game at the 2023 Women's World Cup so far.",
+                "author" : "Spirted Success",
+                "imageLink" : "https://pbs.twimg.com/media/F22H17OWEAA4wzK?format=jpg&name=small",
+                "likes" : 32, 
+                "comments" :1, 
+                "share" : 5  
+            },
+            {
+                "title" : "Australia and New Zealand have broken the Women's World Cup total attendance record with 11 games left to play",
+                "author" : "Snarwib",
+                "imageLink" : "https://i.redd.it/5wx9kz57hhgb1.jpg",
+                "likes" : 13, 
+                "comments" :2, 
+                "share" : 6  
+            }
+            
+        ]
+    },
+    "chicken" : {
+        "name" : "chiken",
+        "subscribers" : 23342, 
+        "description" : "Chicken: Cluck Cluck Cluck",
+        "posts" : [
+            {
+                "title" : "this is so delicious 😋",
+                "author" : "Pangolin1898",
+                "imageLink" : "https://preview.redd.it/bkseuf0l8hgb1.png?width=640&crop=smart&auto=webp&s=ed5474257cd84455589ba5b0cee5bb5ed521ef88",
+                "likes" : 22, 
+                "comments" :0, 
+                "share" : 3 
+            },
+            {
+                "title" : "Nothing wrong just my chicken being derpy and cute",
+                "author" : "Talelight121",
+                "imageLink" : "https://preview.redd.it/l8fcxe1srvfb1.jpg?width=668&format=pjpg&auto=webp&s=2e83c0cc883be6f810ad20b98be7da8b5e4b9013",
+                "likes" : 53, 
+                "comments" :6, 
+                "share" : 4 
+            },
+            {
+                "title" : "My Girls Had a Lot of Questions",
+                "author" : "Alarmed_sprite",
+                "imageLink" : "https://preview.redd.it/v4vydx84jceb1.jpg?width=640&crop=smart&auto=webp&s=59fe3f7e2eb8bde422b42b2b62a98a7d66b2a714",
+                "likes" : 223, 
+                "comments" :23, 
+                "share" : 15 
+            }
+            
+        ]
+    },
+    "india" : {
+        "name" : "india",
+        "subscribers" : 6334232, 
+        "description" : "India: United We Stand",
+        "posts" : [
+            {
+                "title" : "Indian states & union territories by second most spoken scheduled language",
+                "author" : "Owl_Sings",
+                "imageLink" : "https://preview.redd.it/g25oaryp1hgb1.jpg?width=640&crop=smart&auto=webp&s=19e3a9f574fbcb37b031761aa3ac56a83dac097e",
+                "likes" : 77, 
+                "comments" :2, 
+                "share" : 18 
+            },
+            {
+                "title" : "Student accomodation from early first century in Sanchi, Madhya Pradesh",
+                "author" : "Attank12",
+                "imageLink" : "https://preview.redd.it/rcpkjhexghgb1.jpg?width=640&crop=smart&auto=webp&s=8feb503ba002df3833be0079685c9c23b71cfadd",
+                "likes" : 334, 
+                "comments" :12, 
+                "share" : 9 
+            }
+            
+        ]
+    }
+    
+}
