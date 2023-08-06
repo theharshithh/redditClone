@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path'); 
 const redditData = require('./data.json'); 
-const port = 3000; 
+const port = 5000; 
 
 
 const app = express();
@@ -25,6 +25,6 @@ app.get('/r/:subreddit', (req,res) => {
      
 })
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Server is running at` +port);
 });
